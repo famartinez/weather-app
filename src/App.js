@@ -46,7 +46,7 @@ function App() {
                 <p>{weather.name}</p>
 
                 {/* Temperature */}
-                <p>{weather.main.temp} ºC</p>
+                <p>{((weather.main.temp * 9/5) + 32)} ºF</p>
 
 
                 {/* Condition */}
